@@ -1,0 +1,8 @@
+- name: "Ensure jenkins user is present"
+  become: true
+  hosts: DEMO
+  tasks:
+    - name: "create jenkins user"
+      user:
+        - name: "jenkins"
+          state: "present"

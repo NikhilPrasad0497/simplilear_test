@@ -1,0 +1,3 @@
+[DEMO]
+web ansible_host=ip-172-31-36-189 #Slave 1 hostname
+database ansible_host=ip-172-31-45-183 #Slave 2 hostname
