@@ -4,5 +4,5 @@
   tasks:
     - name: "create jenkins user"
       user:
-        - name: "jenkins"
-          state: "present"
+        name: "jenkins"
+        state: "present"
